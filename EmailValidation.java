@@ -1,4 +1,4 @@
-package Assistedpracticeproject;
+package Practiceproject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -17,13 +17,13 @@ public class EmailValidation {
 	public static void main(String[] args) {
 	List<String> emails = new ArrayList<String>();
 	// valid email addresses
-	emails.add("Ramram@example.com");
-	emails.add("Harihiohm@example.com");
-	emails.add("nandri@example.me.org");
+	emails.add("ramesh@example.com");
+	emails.add("nareshohm@example.com");
+	emails.add("randri@example.me.org");
 	//invalid email addresses
 	emails.add("asifa.example.com");
 	emails.add("akhanda..balayya@example.com");
-	emails.add("JaiNTR@.example.com");
+	emails.add("ramara0@.example.com");
 	for (String value : emails) {
 	System.out.println("The Email address " + value + " is " + (isValidEmail(value) ? "valid" : "invalid"));
 	}
